@@ -1,0 +1,598 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+/* --------------------------------------------------------------- */
+/* GLOBAL STYLES ================================================> */
+
+:root {
+  --primary: #072ac8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f4fc;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* --------------------------------------------------------------- */
+/* LOADER STYLES - NAV ===========================================> */
+
+.body-load{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #F2F4FC;
+  transition: all 1s ease;
+  z-index: 10000;
+  
+}
+
+
+.container .load{
+  width: 100px;
+  height: 100px;
+  border: solid 5px #5546063c;
+  border-top: solid 5px #ffd500; 
+  border-radius: 50%;
+  animation: loader 3s linear infinite;
+
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  
+}
+
+/* --------------------------------------------------------------- */
+/* BTN SCROLL STYLES - NAV ======================================> */
+
+.scroll-top-btn{
+  position: fixed;
+  background-image: url(../images/scroll-top/scroll-top.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 999;
+  bottom: 1vh;
+  right: 1vh;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ffc600;
+  border: none;
+  cursor: pointer;
+  transition: all .2s ease-out;
+  color: #292E47;
+}
+
+
+.scroll-top-btn:hover{
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  right: 1vh;
+  width: 3.2rem;
+  height: 3.2rem;
+  box-shadow: #6b708d87 1px 3px 4px;
+  border-radius: 50%;
+  background-color:  #ffc600;
+  border: none;
+  color: #ffffff;
+}
+
+.hidden{
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* --------------------------------------------------------------- */
+/* INDEX STYLES - NAV ===========================================> */
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px 50px 150px;
+  padding-top: 50px;
+  align-items: center;
+  
+}
+
+.nav-cont-ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+
+.nav-cont-ul li a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #6b708d;
+}
+
+.nav-cont-ul li a:hover {
+  color: #072ac8;
+}
+
+.nav-cont a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-contact-us {
+  background-color: #072ac8;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-contact-us:hover {
+  background-color: #062199;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* INDEX STYLES - HEADER =========================================> */
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  margin: 20px 150px 20px 150px;
+}
+
+.header-section-text {
+  width: 500px;
+  position: relative;
+}
+.header-section-text h1 {
+  color: #292e47;
+}
+
+.header-section-text p {
+  color: #6b708d;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.color-back-less {
+  text-decoration: none;
+  font-weight: 500;
+  color: #072ac8;
+}
+
+.color-back-less:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: #292e47;
+}
+
+.color-back {
+  background-color: #072ac8;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.color-back:hover {
+  background-color: #062199;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.header-section-img {
+  position: relative;
+}
+
+.header-section-img-card1 {
+  height: 270px;
+  position: absolute;
+  left: -40px;
+}
+.header-section-img-card2 {
+  height: 250px;
+  position: absolute;
+  bottom: -80px;
+  left: 300px;
+}
+
+.header-section-img-hero {
+  height: 500px;
+}
+
+.header-clients-logos-container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin: 100px 150px 100px 150px;
+}
+
+/* INDEX STYLES - PROJECTS =========================================> */
+
+.projects-section {
+  padding: 100px 200px 100px 200px;
+}
+
+.projects-section h3 {
+  padding-bottom: 60px;
+  color: #292e47;
+}
+
+.projects-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.project img {
+  width: 300px;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+.project a {
+  padding: 50px 0px 40px 20px;
+  color: #072ac8;
+  text-decoration: none;
+}
+
+.project-cont-text {
+  padding: 20px;
+  color: #292E47
+}
+
+/* INDEX STYLES - RATING =========================================> */
+
+.rating-section {
+  background-color: #292e47;
+  background-image: url(../images/testimonial-section/orbit.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 100px 150px 100px 150px;
+  padding: 50px 0px 50px 0px;
+}
+
+.rating-emoticons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-emoticons-1-2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-left: 80px;
+}
+
+.rating-emoticons-3-4 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-right: 80px;
+}
+
+.rating-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.rating-text h3 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.rating-text h4 {
+  text-align: center;
+  color: #ffc600;
+  font-weight: 400;
+}
+
+.rate-sign {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rate-sign h5 {
+  color: #a2d6f9;
+  font-weight: 400;
+  
+}
+
+.rate-sign h6 {
+  color: white;
+  font-weight: 200;
+}
+
+.rate-sign img {
+  width: 50px;
+  clip-path: circle(200px at 50% 50%);
+}
+
+/* INDEX STYLES - SERVICES =========================================> */
+
+.services-section {
+  margin: 100px 200px 100px 200px;
+}
+
+.services-section h3 {
+  padding-bottom: 60px;
+  color: #292E47
+}
+
+.services-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  height: 300px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  color: #292E47
+}
+
+.services img {
+  background-color: #ecf7ff;
+  border-radius: 100px;
+  width: 50px;
+  padding: 10px;
+  
+}
+
+.services a {
+  text-decoration: none;
+  color: #072ac8;
+}
+
+/* INDEX STYLES - HELP =========================================> */
+
+.help-section {
+  background-color: #ffc600;
+  margin: 100px 150px 100px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 0px 100px 0px;
+  color: #292E47
+}
+
+.help-section h3 {
+  text-align: center;
+}
+
+.help-input button {
+  background-color: #072ac8;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+.help-input button:hover {
+  background-color: #062199;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.help-input input {
+  border: 0px;
+  height: 40px;
+  width: 400px;
+  background-image: url(../images/newsletter/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding-left: 40px;  
+}
+
+/* INDEX STYLES - FOOTER =========================================> */
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  margin: 100px 200px 100px 200px;
+  color: #292E47
+}
+
+.footer-cont-left img{
+  padding-bottom: 10px;
+}
+
+.footer-cont-right {
+  display: grid;
+  grid-template-columns: 120px 120px 100px;
+  gap: 30px;
+}
+.footer-cont-right a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #072ac8;
+}
+.footer-cont-right a:hover {
+  font-size: 15px;
+  text-decoration: none;
+  color: #292E47
+}
+
+/* --------------------------------------------------------------- */
+/* CONTACT-US STYLES - FORM ==========================================> */
+
+.message-recive{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #66ec5f;
+  color: rgb(255, 255, 255);
+  transition: all 1s ease;
+  z-index: 10000;
+}
+
+.container-section-form {
+  margin: 100px 200px 100px 200px;
+}
+
+.container-form h1 {
+  margin-bottom: 50px;
+}
+
+.container-flex-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex-form label {
+  padding-bottom: 15px;
+}
+
+.container-flex-form input {
+  height: 70px;
+  background-color: #dddfed;
+  border: none;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.container-flex-form textarea {
+  height: 300px;
+  background-color: #dddfed;
+  border: none;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+
+.email-phone-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-phone-form div {
+  display: flex;
+  flex-direction: column;
+  width: 49.5%;
+}
+
+.container-flex-form button {
+  background-color: #072ac8;
+  border: none;
+  color: white;
+  height: 65px;
+}
+
+.container-flex-form button:hover {
+  background-color: #062199;
+  border: none;
+  color: white;
+  height: 65px;
+}
+
+/* --------------------------------------------------------------- */
+/* PROYECTS STYLES - POST ==========================================> */
+
+.project-post {
+  margin: 100px 150px 100px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-post h1 {
+  margin-bottom: 30px;
+  color: #292e47;
+}
+
+.project-post p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #292e47;
+}
+.project-post-title-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-post-title-date h4 {
+  margin-bottom: 60px;
+  color: #292e47;
+}
+
+.project-post-title-date h5{
+  font-size: 15px;
+  font-weight: 400;
+  color: #292e47;
+
+}
+
+.img-container {
+  background-image: url(../images/projects-section/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
