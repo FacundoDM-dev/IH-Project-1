@@ -1,5 +1,7 @@
 /* Crea tu propia lógica para hacer fetch de 3 posts distintos y enseñarlos en la homepage con DOM manipulation */
 
+// FETCH GET API OLDSCHOOL ==========================>
+
 // let projectArray = document.querySelectorAll(".project-cont-text");
 // let projectData = fetch("https://jsonplaceholder.typicode.com/posts")
 //   .then((res) => res.json())
@@ -15,7 +17,7 @@
 //   })
 //   .catch((err) => console.log(err));
   
-// FETCH GET API ==========================>
+// FETCH GET API NEWSCHOOL ==========================>
   
 const get3posts = () => {
   fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects')
