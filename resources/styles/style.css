@@ -266,6 +266,8 @@ h4 {
   gap: 25px;
 }
 
+
+
 .project {
   display: flex;
   flex-direction: column;
@@ -276,8 +278,14 @@ h4 {
 .project img {
   width: 300px;
   box-sizing: content-box;
-  width: 100%;
+ 
 }
+
+.projects-flex-container :last-child img {
+  height: 228px;
+}
+
+
 
 .project a {
   padding: 50px 0px 40px 20px;
