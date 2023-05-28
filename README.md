@@ -64,35 +64,20 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
+- Desarrolo web para empresa Circle, atendiendo manual de marca e imagen corporativa con el objetivo de crear un espacio para que la empresa pueda mostrar sus mejores proyectos, actualidad, contacto, subuscripcion a novedades, etc.
+-Para este proyecto, se convino HTML5 - CSS3 y JAVASCRIPT
 
-En esta sección se puede incluir información como:
-
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
-
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
+- HTML5 - CSS - JAVASCRIPT
+- IDE: Visual Studio Code
+- Control de versiones: GitHub Inc.
+- Servicios Cloud: cloudinary
+- Figma / Postman
 
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,16 +146,10 @@ Día 27/09 - Maquetado CSS y JS del botón burger para mobile.
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
-
-En esta sección se puede incluir información como:
-
 - Facundo Martín Del Médico - delmedicofacundo@gmail.com
 - Diseñador gráfico senior actualmente estudiando desarrolo web para ampliar conocimientos, como diseñador grafico ocupando un roll de webdeveloper creo que puedo tener una muy buena comunicacion con el equipo de diseño atendindo al detalle cada objetivo visual pretendido.
 - https://github.com/FacundoDM-dev
 - https://www.behance.net/facundodelmedico
-
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
 Facundo - [@behance](https://www.behance.net/facundodelmedico) - delmedicofacundo@gmail.com
 
@@ -184,18 +163,12 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+- Antes que nada, agradecer al instituto IronHack que gracias al convenio que ha realizado con Amazon, nos han podido ofrecer este bootcamp que representa un gran oportunidad para todos los que estamos afrontando el mismo.
+- Por otro lado agradecimientos para Diego Zito, nuestro profesor, por que guinarnos en este nuevo camino que hemos decidio emprender para tranformarnos en desarrolladores web.
+- Gracias Google por las Fonts de cada dia!
 
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
-
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+- [Icon Libraries](https://icons.getbootstrap.com/)
+- [Google Font Libraries](https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
