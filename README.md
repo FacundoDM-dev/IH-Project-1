@@ -75,15 +75,15 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 - HTML5 - CSS - JAVASCRIPT
 - IDE: Visual Studio Code
 - Control de versiones: GitHub Inc.
-- Servicios Cloud: cloudinary
-- Figma / Postman
+- Servicios Cloud: Vercel & Cloudinary
+- Figma & Postman
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Vercel app
 
-
+https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html
 
 ## Roadmap trello
 
@@ -153,7 +153,9 @@ Día 27/09 - Maquetado CSS y JS del botón burger para mobile.
 
 Facundo - [@behance](https://www.behance.net/facundodelmedico) - delmedicofacundo@gmail.com
 
-Project Link: [https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html](https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html)
+Project Link GitHub: [https://github.com/FacundoDM-dev/IH-project-1-midtern-boiler](https://github.com/FacundoDM-dev/IH-project-1-midtern-boiler)
+
+Project Link Vercel: [https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html](https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
