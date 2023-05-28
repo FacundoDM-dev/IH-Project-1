@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Agency</title>
-    <link
-      rel="stylesheet"
-      href="/resources/styles/style.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/resources/styles/style-mediaquerys.css"
-    />
+    <link rel="stylesheet" href="/resources/styles/style.css" />
+    <link rel="stylesheet" href="/resources/styles/style-mediaquerys.css" />
   </head>
   <body id="body">
-
     <!-- LOADER HTML ===========================================> -->
-    
+
     <div class="body-load">
-      <div class="container" >
-        <div class="load">
-            
-        </div>
+      <div class="container">
+        <div class="load"></div>
       </div>
     </div>
 
     <!-- NAV HTML ===========================================> -->
 
     <nav id="nav" class="nav-cont">
-
       <a href="/index.html">
         <img
-        src="https://res.cloudinary.com/ddcu7zhjo/image/upload/v1685188120/midterm-project/images/logos/circle_vufilr.svg"
-        alt="circle-logo"/>
+          src="https://res.cloudinary.com/ddcu7zhjo/image/upload/v1685188120/midterm-project/images/logos/circle_vufilr.svg"
+          alt="circle-logo"
+        />
       </a>
 
       <button class="burger-button">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="svg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+          />
         </svg>
       </button>
 
@@ -50,7 +51,6 @@
       </ul>
 
       <a class="nav-contact-us" href="/contact-us.html">Contact Us</a>
-
     </nav>
 
     <!-- FORM HTML ===========================================> -->
@@ -61,28 +61,49 @@
         <div>
           <form class="container-flex-form">
             <label for="name">Full Name *</label>
-            <input id="fullname" name="fullname" type="text" placeholder="Enter your full name*" required/>
+            <input
+              id="fullname"
+              name="fullname"
+              type="text"
+              placeholder="Enter your full name*"
+              required
+            />
             <small>Error Message</small>
             <div class="email-phone-form">
               <div>
                 <label for="email">Email</label>
-                <input id="email" name="email" type="text" placeholder="Enter your email" required/>
+                <input
+                  id="email"
+                  name="email"
+                  type="text"
+                  placeholder="Enter your email"
+                  required
+                />
                 <small>Error Message</small>
               </div>
               <div>
                 <label for="phone">Phone</label>
-                <input name="phone" type="text" placeholder="Enter your phone" />
+                <input
+                  name="phone"
+                  type="text"
+                  placeholder="Enter your phone"
+                />
                 <small>Error Message</small>
               </div>
             </div>
             <label for="text-messaage">Message *</label>
-            <textarea name="message" cols="134" rows="15" placeholder="  Write you text message here..." required></textarea>
+            <textarea
+              name="message"
+              cols="134"
+              rows="15"
+              placeholder="  Write you text message here..."
+              required
+            ></textarea>
             <small>Error Message</small>
-            <button type="submit">Submit</button>  
+            <button type="submit">Submit</button>
           </form>
         </div>
       </div>
-
     </section>
 
     <!-- FOOTER HTML ===========================================> -->
@@ -93,9 +114,7 @@
           src="https://res.cloudinary.com/ddcu7zhjo/image/upload/v1685188120/midterm-project/images/logos/circle_vufilr.svg"
           alt="circle-logo"
         />
-        <p>
-          2972 Westheimer Rd. Santa Ana, Illinois 85486
-        </p>
+        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
       </div>
       <div class="footer-cont-right">
         <a href="#">Team</a>
@@ -108,12 +127,11 @@
     </footer>
 
     <!-- SCROLLTOP BTN HTML ===========================================> -->
-      
+
     <a class="scroll-top-btn hidden" href="#body"></a>
 
     <script src="resources/js/contact.js"></script>
 
     <script src="resources/js/scrop-top-and-loader.js"></script>
-
   </body>
 </html>
