@@ -62,6 +62,8 @@
   }
 
   .svg:hover{
+    bottom: 2vh;
+    right: 2vh;
     height:2rem ;
     width: 2rem;
     background-color: #ffd500;
