@@ -121,24 +121,29 @@ h4 {
 
 /* --------------------------------------------------------------- */
 /* INDEX STYLES - NAV ===========================================> */
-.nav-cont-ul-burger{
-  display:none;
-}
 
 
 .nav-cont {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   margin: 0px 150px 50px 150px;
   padding-top: 50px;
   align-items: center;
-  
 }
 
 .nav-cont-ul {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   gap: 45px;
+}
+
+.burger-button{
+  display: none;
 }
 
 .nav-cont-ul li a {
@@ -472,9 +477,7 @@ h4 {
   color: #292E47
 }
 
-.footer-cont-left p{
-  text-align: center;
-}
+
 
 .footer-cont-left img{
   padding-bottom: 10px;
