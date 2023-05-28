@@ -275,7 +275,6 @@ h4 {
 }
 
 
-
 .project {
   display: flex;
   flex-direction: column;
@@ -501,15 +500,7 @@ h4 {
 /* --------------------------------------------------------------- */
 /* CONTACT-US STYLES - FORM ==========================================> */
 
-.message-recive{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #66ec5f;
-  color: rgb(255, 255, 255);
-  transition: all 1s ease;
-  z-index: 10000;
-}
+
 
 .container-section-form {
   margin: 100px 200px 100px 200px;
@@ -542,6 +533,17 @@ h4 {
 
 /* --------------------------------------------------------------- */
 /* CONTACT-US STYLES - FORM VALIDATION===========================> */
+
+.message-recive{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #66ec5f;
+  color: rgb(255, 255, 255);
+  transition: all 1s ease;
+  z-index: 10000;
+}
+
 .container-flex-form small{
   color: var(--error-color);
   position: absolute;

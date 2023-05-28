@@ -35,3 +35,12 @@ w.addEventListener("scroll", ()=>{
 //         })
 //     }
 // })
+
+// BURGER BUTTON ======================>
+
+const button = document.querySelector(".burger-button")
+const nav = document.querySelector(".nav-ul")
+
+button.addEventListener("click", () => {
+  nav.classList.toggle("active")
+})
