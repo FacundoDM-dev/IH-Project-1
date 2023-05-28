@@ -222,11 +222,28 @@
     margin: 0px 0px 0px 0px;
     padding: 30px;
     width: 100%;
+    background-color: #f2f4fc;
+    z-index: 20;
   }
 
   .burger-button {
     display: block;
     cursor: pointer;
+    border: none;
+  }
+  
+  .svg{
+    height:2rem ;
+    width: 2rem;
+    background-color: #ffd500;
+  }
+
+  .svg:hover{
+    height:2rem ;
+    width: 2rem;
+    background-color: #ffd500;
+    box-shadow: #6b708d87 1px 2px 3px;
+    transition: all .1s ease;
   }
 
   .nav-ul {
@@ -238,6 +255,7 @@
     transition: all 0.2s ease;
     gap: 20px;
     padding-bottom: 10px;
+    z-index: 10;
   }
 
   .nav-cont .active {
