@@ -51,19 +51,23 @@
         <div>
           <form class="container-flex-form">
             <label for="name">Full Name *</label>
-            <input name="fullname" type="text" placeholder="Enter your full name*" required/>
+            <input id="fullname" name="fullname" type="text" placeholder="Enter your full name*" required/>
+            <small>Error Message</small>
             <div class="email-phone-form">
               <div>
                 <label for="email">Email</label>
-                <input name="email" type="text" placeholder="Enter your email" />
+                <input id="email" name="email" type="text" placeholder="Enter your email" required/>
+                <small>Error Message</small>
               </div>
               <div>
                 <label for="phone">Phone</label>
                 <input name="phone" type="text" placeholder="Enter your phone" />
+                <small>Error Message</small>
               </div>
             </div>
             <label for="text-messaage">Message *</label>
             <textarea name="message" cols="134" rows="15" placeholder="  Write you text message here..." required></textarea>
+            <small>Error Message</small>
             <button type="submit">Submit</button>  
           </form>
         </div>

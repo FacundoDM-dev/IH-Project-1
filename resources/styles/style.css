@@ -121,6 +121,10 @@ h4 {
 
 /* --------------------------------------------------------------- */
 /* INDEX STYLES - NAV ===========================================> */
+.nav-cont-ul-burger{
+  display:none;
+}
+
 
 .nav-cont {
   display: flex;
@@ -468,6 +472,10 @@ h4 {
   color: #292E47
 }
 
+.footer-cont-left p{
+  text-align: center;
+}
+
 .footer-cont-left img{
   padding-bottom: 10px;
 }
@@ -525,6 +533,35 @@ h4 {
   margin-bottom: 15px;
   padding-left: 10px;
 }
+
+.container-flex-form input:focus{
+  outline: 1;
+}
+
+/* --------------------------------------------------------------- */
+/* CONTACT-US STYLES - FORM VALIDATION===========================> */
+.container-flex-form small{
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.container-flex-form.error small{
+  visibility: visible;
+}
+
+.container-flex-form .success input {
+  border-color: var(--succes-color);
+}
+
+.container-flex-form .error input {
+  border-color: var(--error-color);    
+}
+
+/* ===============================================================> */ 
+
 
 .container-flex-form textarea {
   height: 300px;
