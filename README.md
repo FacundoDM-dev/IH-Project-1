@@ -98,7 +98,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ## Vercel app
 
-https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html
+
 
 ## Roadmap trello
 
@@ -165,16 +165,16 @@ La sección "sobre mí" en un archivo README es una sección que proporciona inf
 
 En esta sección se puede incluir información como:
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
+- Facundo Martín Del Médico - delmedicofacundo@gmail.com
+- Diseñador gráfico senior actualmente estudiando desarrolo web para ampliar conocimientos, como diseñador grafico ocupando un roll de webdeveloper creo que puedo tener una muy buena comunicacion con el equipo de diseño atendindo al detalle cada objetivo visual pretendido.
+- https://github.com/FacundoDM-dev
+- https://www.behance.net/facundodelmedico
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Facundo - [@behance](https://www.behance.net/facundodelmedico) - delmedicofacundo@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html](https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
