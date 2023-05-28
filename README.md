@@ -96,40 +96,64 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Vercel app
+
+https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html
+
 ## Roadmap trello
 
 https://trello.com/b/jJgFOvmf/midterm-ironhack-main
 
 #### Backlog
 
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
-
 #### Day One
 
-#### Day One
+Día 1 23/05 - Maquetado HTML & CSS homepage (mobile - desktop)
 
 ###### Lunes 23, Enero 2023
 
 - [ ] Tarea no completada
 - [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
 
 #### Day Two
 
+Día 2 24/05 - Maquetado HTML & CSS projects & contuctUs  (mobile - desktop)
+
 ###### Martes 24, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
 
 #### Day Three
 
+Día 3 25/05 - Logica JS para el formulario de contacUs
+
 ###### Miercoles 25, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
 
 #### Day Four
 
+Día 4 26/05 - Logica JS para el Loader y boton scrollUp
+
 ###### Jueves 26, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
 
 #### Day Five
 
+Día 27/09 - Maquetado CSS y JS del botón burger para mobile.
+
 ###### Viernes 27, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
+
+
+
+----------------------------------------------------------------------
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
