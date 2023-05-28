@@ -48,3 +48,11 @@ window.addEventListener("load", get3posts);
 
 
 
+const button = document.querySelector(".burger-button")
+const nav = document.querySelector(".nav-ul")
+
+button.addEventListener("click", () => {
+  nav.classList.toggle("active")
+})
+
+

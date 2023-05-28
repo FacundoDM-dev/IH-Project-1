@@ -133,9 +133,8 @@ h4 {
   align-items: center;
 }
 
-.nav-cont-ul {
+.nav-ul {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -146,13 +145,13 @@ h4 {
   display: none;
 }
 
-.nav-cont-ul li a {
+.nav-ul li a {
   font-weight: 500;
   text-decoration: none;
   color: #6b708d;
 }
 
-.nav-cont-ul li a:hover {
+.nav-ul li a:hover {
   color: #072ac8;
 }
 
