@@ -63,7 +63,7 @@
     cursor: pointer;
   }
 
-  .burger-button div{
+  .line0{
     background-color: black;
     height: 2px;
     width: 100%;
@@ -72,15 +72,34 @@
     transform-origin: left;
   }
 
-  .burger-button:hover div:first-child{
+  .line1{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .2s;
+    transform-origin: left;
+  }
+
+  .line2{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .2s;
+    transform-origin: left;
+  }
+
+
+  .line0 .active{
     transform: rotate(45deg);
   }
 
-  .burger-button:hover div:nth-child(2){
+  .line1 .active{
     opacity: 0;
   }
 
-  .burger-button:hover div:last-child{
+  .line2 .active{
     transform: rotate(-45deg);
   }
 

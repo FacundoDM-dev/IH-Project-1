@@ -147,7 +147,7 @@ Día 27/09 - Maquetado CSS y JS del botón burger para mobile.
 ## Acerca
 
 - Facundo Martín Del Médico - delmedicofacundo@gmail.com
-- Diseñador gráfico senior actualmente estudiando desarrolo web para ampliar conocimientos, como diseñador grafico ocupando un roll de webdeveloper creo que puedo tener una muy buena comunicacion con el equipo de diseño atendindo al detalle cada objetivo visual pretendido.
+- Diseñador gráfico senior actualmente estudiando desarrollo web para ampliar conocimientos, como diseñador gráfico ocupando un roll de webdeveloper creo que puedo tener una muy buena comunicación con el equipo de diseño atendiendo al detalle cada objetivo visual pretendido.
 - https://github.com/FacundoDM-dev
 - https://www.behance.net/facundodelmedico
 
@@ -165,9 +165,9 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-- Antes que nada, agradecer al instituto IronHack que gracias al convenio que ha realizado con Amazon, nos han podido ofrecer este bootcamp que representa un gran oportunidad para todos los que estamos afrontando el mismo.
-- Por otro lado agradecimientos para Diego Zito, nuestro profesor, por que guinarnos en este nuevo camino que hemos decidio emprender para tranformarnos en desarrolladores web.
-- Gracias Google por las Fonts de cada dia!
+- Antes que nada, agradecer al instituto IronHack, que gracias al convenio que ha realizado con Amazon, nos han podido ofrecer este bootcamp que representa una gran oportunidad para todos los que estamos afrontando el mismo.
+- Por otro lado, agradecimientos para Diego Zito, nuestro profesor, por guiarnos en este nuevo camino que hemos decidido emprender para transformarnos en desarrolladores web.
+- Gracias, Google por las Fonts de cada día!
 
 - [Icon Libraries](https://icons.getbootstrap.com/)
 - [Google Font Libraries](https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap)
@@ -176,26 +176,9 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+- El desafío ha sido en general, en mi caso, queda camino por recorrer para aprender a "dominar" un poco esta combinación de lenguajes de maquetación y programación.
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
-
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+- Uno de los errores que me ha dado más trabajo es empezar por maquetar desktop antes que mobile, lo que conlleva un la grave consecuencia de tener que recurrir a muchas más horas de ajuste para lograr objetivos visuales aceptables. De todas maneras quedo inconforme con el resultado.
+- Por otro lado, esto no es un error, pero de momento para aplicar JS tengo que investigar mucho y releer la documentación porque aún me faltan interiorizar algunos conceptos básicos de cómo opera el lenguaje.
