@@ -127,12 +127,17 @@ h4 {
   align-items: center;
 }
 
+.nav-cont a{
+  text-decoration: none;
+}
+
 .nav-ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   gap: 45px;
+
 }
 
 .burger-button {
@@ -143,16 +148,13 @@ h4 {
   font-weight: 500;
   text-decoration: none;
   color: #6b708d;
+  font-size: 15px;
 }
 
 .nav-ul li a:hover {
   color: #072ac8;
 }
 
-.nav-cont a {
-  text-decoration: none;
-  font-size: 15px;
-}
 
 .nav-contact-us {
   background-color: #072ac8;
