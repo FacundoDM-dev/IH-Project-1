@@ -146,7 +146,7 @@
 
   .header-clients-logos-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:  wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -167,6 +167,10 @@
     color: #292e47;
     text-align: center;
   }
+
+  .projects-section {
+    padding: 100px 70px 100px 70px;
+}
 
   /* INDEX STYLES - SERVICES =========================================> */
 
@@ -258,19 +262,27 @@
  
 
   /* INDEX STYLES - PROJECTS =========================================> */
+.projects-section {
+  padding: 100px 100px 100px 100px;
+}
 
- 
+.project img {
+  width: 500px;
+  box-sizing: content-box;
+}
+
+.projects-flex-container :last-child img {
+  height: 340px;
+}
+
 
   /* INDEX STYLES - RATING =========================================> */
 
-  
 
   /* INDEX STYLES - SERVICES =========================================> */
 
-  
 
   /* INDEX STYLES - HELP =========================================> */
-
 
 
   /* INDEX STYLES - FOOTER =========================================> */
