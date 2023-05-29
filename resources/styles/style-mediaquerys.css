@@ -263,80 +263,18 @@
 
   /* INDEX STYLES - RATING =========================================> */
 
-  .rating-emoticons-1-2 {
-    visibility: hidden;
-  }
-
-  .rating-emoticons-3-4 {
-    visibility: hidden;
-  }
+  
 
   /* INDEX STYLES - SERVICES =========================================> */
 
-  .services-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    margin-bottom: 380px;
-  }
-
-  .services-section h3 {
-    text-align: center;
-    padding-bottom: 15px;
-    color: #292e47;
-  }
+  
 
   /* INDEX STYLES - HELP =========================================> */
 
-  .help-section {
-    background-color: #ffc600;
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 50px 0px 50px 0px;
-  }
+
 
   /* INDEX STYLES - FOOTER =========================================> */
 
-  .footer-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .footer-cont-left {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-cont-left img {
-    width: 50px;
-  }
-
-  .footer-cont-left p {
-    text-align: center;
-  }
-
-  .footer-cont-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .footer-cont-right a {
-    font-size: 10px;
-    text-decoration: none;
-    color: #072ac8;
-  }
 
   /* --------------------------------------------------------------- */
   /* CONTACT STYLES
