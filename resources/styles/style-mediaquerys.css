@@ -50,12 +50,41 @@
   }
 
   .burger-button {
-    display: block;
+    /* display: block;
     cursor: pointer;
-    border: none;
+    border: none; */
+    display: flex;
+    flex-direction: column;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+    cursor: pointer;
   }
 
-  .svg {
+  .burger-button div{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .2s;
+    transform-origin: left;
+  }
+
+  .burger-button:hover div:first-child{
+    transform: rotate(45deg);
+  }
+
+  .burger-button:hover div:nth-child(2){
+    opacity: 0;
+  }
+
+  .burger-button:hover div:last-child{
+    transform: rotate(-45deg);
+  }
+
+  /* .svg {
     height: 2rem;
     width: 2rem;
     background-color: #ffd500;
@@ -67,7 +96,7 @@
     background-color: #ffd500;
     box-shadow: #6b708d87 1px 2px 3px;
     transition: all 0.1s ease;
-  }
+  } */
 
   .nav-ul {
     justify-content: flex-end;
@@ -175,6 +204,10 @@
     padding: 50px 0px 50px 0px;
   }
 
+  .rating-section{
+    margin: 100px 0px 100px 0px;
+  }
+
   /* INDEX STYLES - FOOTER =========================================> */
 
   .footer-section {
@@ -226,13 +259,50 @@
     z-index: 20;
   }
 
-  .burger-button {
-    display: block;
-    cursor: pointer;
-    border: none;
+  .nav-cont {
+    margin: 0px 0px 0px 0px;
+    padding: 30px;
+    width: 100%;
+    background-color: #f2f4fc;
+    z-index: 20;
   }
 
-  .svg {
+  .burger-button {
+    /* display: block;
+    cursor: pointer;
+    border: none; */
+    display: flex;
+    flex-direction: column;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+    cursor: pointer;
+  }
+
+  .burger-button div{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .2s;
+    transform-origin: left;
+  }
+
+  .burger-button:hover div:first-child{
+    transform: rotate(45deg);
+  }
+
+  .burger-button:hover div:nth-child(2){
+    opacity: 0;
+  }
+
+  .burger-button:hover div:last-child{
+    transform: rotate(-45deg);
+  }
+
+  /* .svg {
     height: 2rem;
     width: 2rem;
     background-color: #ffd500;
@@ -244,7 +314,7 @@
     background-color: #ffd500;
     box-shadow: #6b708d87 1px 2px 3px;
     transition: all 0.1s ease;
-  }
+  } */
 
   .nav-ul {
     justify-content: flex-end;
