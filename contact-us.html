@@ -71,11 +71,11 @@
             <small>Error Message</small>
             <div class="email-phone-form">
               <div>
-                <label for="email">Email</label>
+                <label for="email">Email*</label>
                 <input
                   id="email"
                   name="email"
-                  type="text"
+                  type="email"
                   placeholder="Enter your email"
                   required
                 />
@@ -85,7 +85,7 @@
                 <label for="phone">Phone</label>
                 <input
                   name="phone"
-                  type="text"
+                  type="number"
                   placeholder="Enter your phone"
                 />
                 <small>Error Message</small>
@@ -96,11 +96,11 @@
               name="message"
               cols="134"
               rows="15"
-              placeholder="  Write you text message here..."
+              placeholder="Write you text message here..."
               required
             ></textarea>
             <small>Error Message</small>
-            <button type="submit">Submit</button>
+            <button class="button-submit" type="submit">Submit</button>
           </form>
         </div>
       </div>
@@ -133,5 +133,6 @@
     <script src="resources/js/contact.js"></script>
 
     <script src="resources/js/scrop-top-and-loader.js"></script>
+    
   </body>
 </html>
