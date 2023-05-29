@@ -40,7 +40,14 @@ w.addEventListener("scroll", ()=>{
 
 const button = document.querySelector(".burger-button")
 const nav = document.querySelector(".nav-ul")
+const line1 = document.querySelector(".line1__div-animation")
+const line2 = document.querySelector(".line2__div-animation")
+const line3 = document.querySelector(".line3__div-animation")
 
 button.addEventListener("click", () => {
   nav.classList.toggle("active")
+  line1.classList.toggle("activeline1__div-animation")
+  line2.classList.toggle("activeline2__div-animation")
+  line3.classList.toggle("activeline3__div-animation")
+
 })
