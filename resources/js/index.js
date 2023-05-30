@@ -17,7 +17,7 @@
 //   })
 //   .catch((err) => console.log(err));
   
-// FETCH GET API NEWSCHOOL ==========================>
+// FETCH GET API XSCHOOL ==========================>
   
 const get3posts = () => {
   fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects')
