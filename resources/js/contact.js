@@ -1,7 +1,7 @@
 /* Crea tu propia lógica para hacer un fetch que emule una post request a un servidor y enseñe un mensaje en consola cuando la llamada se resuelva */
 /*  ADVANCED: utiliza DOM manipulation para enseñarle al user que su mensaje se ha enviado correctamente o no */
 
-// FETCH POST ======================>
+// FETCH POST REQUEST ======================>
 
 const form = document.querySelector(".container-flex-form");
 const fullname = document.getElementById("fullname");
@@ -18,12 +18,14 @@ form.addEventListener("submit", function (e) {
   })
     .then((res) => res.json())
     .then(() => {
+      console.log("fetch-post-request-success");
       showSuccess();
       form.reset();
     })
 
     .catch((err) => {
       showError(err);
+      console.log("fetch-post-request-failure")
     });
 });
 
