@@ -25,16 +25,6 @@ w.addEventListener("scroll", ()=>{
     }
 })
 
-// d.addEventListener("click", (e)=>{
-//     let button = document.querySelector(".scroll-top-btn")
-//     if (e.target.matches(button)) {
-//         d.scrollTo({
-//             behavior: "smooth",
-//             top: 0,
-//             left: 0,
-//         })
-//     }
-// })
 
 // BURGER BUTTON ======================>
 
