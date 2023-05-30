@@ -474,11 +474,13 @@ h4 {
   grid-template-columns: 120px 120px 100px;
   gap: 30px;
 }
+
 .footer-cont-right a {
   font-size: 15px;
   text-decoration: none;
   color: #072ac8;
 }
+
 .footer-cont-right a:hover {
   font-size: 15px;
   text-decoration: none;
