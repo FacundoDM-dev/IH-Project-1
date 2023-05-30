@@ -290,7 +290,10 @@
   }
 }
 
+/* --------------------------------------------------------------- */
+
 @media (max-width: 576px) {
+  
   .header-section-text {
     width: 350px;
     position: relative;
@@ -305,6 +308,10 @@
   }
   .header-section-img-card2 {
     display: none;
+  }
+
+  .header-clients-logos-container {
+    margin: 50px 150px 0px 150px;
   }
 
   .services-section {
@@ -324,17 +331,26 @@
     height: 230px;
   }
 
+  .rating-section {
+    margin: 0px 0px 100px 0px;
+  }
+
   .help-input {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  .help-input input{
+
+  .help-input input {
     width: 300px;
   }
+
   .help-input button {
     width: 300px;
   }
 
+  .footer-section {
+    margin: 100px 50px 100px 50px;
+}
 }
