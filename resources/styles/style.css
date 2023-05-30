@@ -578,6 +578,7 @@ h4 {
   color: white;
   height: 65px;
   transition: all .5s ease;
+  cursor: pointer;
 }
 
 /* .button-submit:hover {
