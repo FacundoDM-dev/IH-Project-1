@@ -10,13 +10,15 @@ export class ProjectsFetch {
         "https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects"
       );
       const projects = await response.json();
-      this.domProjects(projects);
+      return projects;
     } catch {
       console.log(error);
     }
   }
 
-  domProjects(projects) {
+  async domProjects() {
+    const projects = await this.getFetch();
+
     const arrayReverse = projects.slice(1, 4).reverse();
     const arrayElements = arrayReverse.map(
       (project) =>
@@ -26,9 +28,20 @@ export class ProjectsFetch {
                     <h4>${project.name}</h4>
                     <p>${project.description}</p>
                 </div>
-                <a href="">Learn more</a>
+                <a href="/project.html?p=${project.uuid}">Learn more</a>
             </div>`
     );
     this.container.innerHTML = arrayElements.join("");
+    console.log(arrayElements);
+  }
+
+  async individualDomProject() {
+    const projects = await this.getFetch();
+    const url = new URLSearchParams(window.location.search);
+    const numProject = url.get("p");
+    const project = projects[numProject]
+    console.log(project);
   }
 }
+
+

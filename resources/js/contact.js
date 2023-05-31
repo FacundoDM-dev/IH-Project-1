@@ -4,14 +4,14 @@ const form = document.querySelector(".container-flex-form");
 const fullname = document.getElementById("fullname");
 const email = document.getElementById("email");
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
+  try{
+    const postForm = new FormData(form);
 
-  const payload = new FormData(form);
-
-  fetch('https://jsonplaceholder.typicode.com/posts', {
+  await fetch('https://jsonplaceholder.typicode.com/posts', {
     method: "POST",
-    body: payload,
+    body: postForm,
   })
     .then((res) => res.json())
     .then(() => {
@@ -24,6 +24,9 @@ form.addEventListener("submit", function (e) {
       showError(err);
       console.log("fetch-post-request-failure")
     });
+  }catch{
+
+  }
 });
 
 // FUNCTIONS FOR DOM MESSAGE ======================>

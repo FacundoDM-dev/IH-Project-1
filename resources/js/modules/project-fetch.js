@@ -17,18 +17,18 @@ export class ProjectFetch {
   }
 
   domProject(projects) {
-    const array = projects[4];
-    const arrayElement = array.map(
-      (projects) =>
-            `<h1>${projects[4].name}</h1>
+    const array = projects[3];
+    // console.log(array);
+    const arrayElement = 
+            `<h1>${array.name}</h1>
              <div class="project-post-title-date">
-                 <h4>${projects[4].description}</h4>
+                 <h4>${array.description}</h4>
                  <h5>Completed on 02/02/23</h5>
              </div>
              <div class="img-container"></div>
-             <p>${projects[4].content}</p>`
-    );
-    console.log(this.container.innerHTML = arrayElement);
+             <p>${array.content}</p>`;
+
+    this.container.innerHTML = arrayElement;
   }
 }
 
