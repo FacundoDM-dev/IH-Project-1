@@ -19,8 +19,7 @@ export class ProjectFetch {
   domProject(projects) {
     const array = projects[3];
     // console.log(array);
-    const arrayElement = 
-            `<h1>${array.name}</h1>
+    const arrayElement = `<h1>${array.name}</h1>
              <div class="project-post-title-date">
                  <h4>${array.description}</h4>
                  <h5>Completed on 02/02/23</h5>
@@ -31,4 +30,3 @@ export class ProjectFetch {
     this.container.innerHTML = arrayElement;
   }
 }
-

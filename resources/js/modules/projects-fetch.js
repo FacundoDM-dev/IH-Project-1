@@ -32,15 +32,21 @@ export class ProjectsFetch {
             </div>`
     );
     this.container.innerHTML = arrayElements.join("");
-    console.log(arrayElements);
+    // console.log(arrayElements);
   }
 
   async individualDomProject() {
     const projects = await this.getFetch();
+    const reverseProjects = projects.slice(1,4).reverse()
     const url = new URLSearchParams(window.location.search);
     const numProject = url.get("p");
-    const project = projects[numProject]
+    const project = reverseProjects[numProject]
+
     console.log(project);
+
+
+    console.log(projects.slice(1,4).reverse());
+    console.log(reverseProjects);
   }
 }
 
