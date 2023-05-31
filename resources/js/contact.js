@@ -1,33 +1,29 @@
 // FETCH POST REQUEST ======================>
+const fetchPost = () => {
+  const form = document.querySelector(".container-flex-form");
+  // const fullname = document.getElementById("fullname");
+  // const email = document.getElementById("email");
 
-const form = document.querySelector(".container-flex-form");
-const fullname = document.getElementById("fullname");
-const email = document.getElementById("email");
-
-form.addEventListener("submit", async (e) => {
-  e.preventDefault();
-  try{
-    const postForm = new FormData(form);
-
-  await fetch('https://jsonplaceholder.typicode.com/posts', {
-    method: "POST",
-    body: postForm,
-  })
-    .then((res) => res.json())
-    .then(() => {
-      console.log("fetch-post-request-success");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    try {
+      const postForm = new FormData(form);
+      const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+        method: "POST",
+        body: postForm,
+      });
+      const project = response.json();
+      console.log((project));
       showSuccess();
       form.reset();
-    })
+      console.log("fetch-post-request-success");
+    } catch {
+      console.log("fetch-post-request-failure");
+    }
+  });
+}
 
-    .catch((err) => {
-      showError(err);
-      console.log("fetch-post-request-failure")
-    });
-  }catch{
 
-  }
-});
 
 // FUNCTIONS FOR DOM MESSAGE ======================>
 
@@ -50,3 +46,8 @@ const showError = () => {
     buttonSubmit.innerText = "Submit";
   }, 2000);
 };
+
+
+
+
+fetchPost();

@@ -1,8 +1,8 @@
 
 const get1posts = async () => {
     try{
-        const respose = await fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects');
-        const project = await respose.json()
+        const response = await fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects');
+        const project = await response.json()
         const array = project[3]
         let  post = document.querySelector('.project-post')
         const arrayElement = 

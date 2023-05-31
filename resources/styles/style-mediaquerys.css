@@ -258,7 +258,10 @@
   /* INDEX STYLES - NAV =========================================> */
 
   /* INDEX STYLES - HEADER =========================================> */
-
+  .header-section-img-card2 {
+    
+    left: 275px;
+}
   /* INDEX STYLES - PROJECTS =========================================> */
   .projects-section {
     padding: 100px 100px 100px 100px;
@@ -276,7 +279,9 @@
   /* INDEX STYLES - RATING =========================================> */
 
   /* INDEX STYLES - SERVICES =========================================> */
-
+  .services-section {
+    margin: 100px 100px 100px 100px;
+  }
   /* INDEX STYLES - HELP =========================================> */
 
   /* INDEX STYLES - FOOTER =========================================> */
@@ -356,6 +361,10 @@
 
   .help-input button {
     width: 300px;
+  }
+
+  .help-input button:hover {
+    width: 300px; 
   }
 
   .footer-section {
