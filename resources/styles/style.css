@@ -249,10 +249,18 @@ h4 {
 .header-clients-logos-container {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  align-items: center;
+  gap: 150px;
   margin: 100px 50px 100px 50px;
   flex-wrap: wrap;
-  
+}
+
+.header-clients-logos-container a{
+  filter: grayscale();
+}
+
+.header-clients-logos-container a:hover{
+  filter: none;
 }
 
 /* INDEX STYLES - PROJECTS =========================================> */
