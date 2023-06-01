@@ -4,15 +4,11 @@ const get1posts = async () => {
       "https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects"
     );
     const projects = await response.json();
-    const reverseProjects = projects.reverse(1,3)
+    const reverseProjects = projects.reverse()
+    let reorderProject = [reverseProjects.pop()].concat(reverseProjects)
     const url = new URLSearchParams(window.location.search);
     const numProject = url.get("p");
-    const array = reverseProjects[numProject];
-    console.log(projects);
-    console.log(reverseProjects);
-    console.log(array);
-
-
+    const array = reorderProject[numProject];
     let post = document.querySelector(".project-post");
     
     const arrayElement = `<h1>${array.name}</h1>
