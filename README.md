@@ -25,11 +25,10 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80">
+  <img src="/resources/images/readMe/Imagen-perfil-behance.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
   <a href="https://midterm-project.vercel.app/">Visit Website</a>
 </div>
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
