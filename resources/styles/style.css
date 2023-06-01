@@ -15,6 +15,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -24,20 +25,17 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
- background-color: #93949987;
- border-radius: 50px;
+  background-color: #93949987;
+  border-radius: 50px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background-color:  #666a7c87;
-
- }
+  background-color: #666a7c87;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f2f4fc;
-  
-
 }
 
 h1 {
@@ -146,7 +144,7 @@ h4 {
   align-items: center;
 }
 
-.nav-cont a{
+.nav-cont a {
   text-decoration: none;
 }
 
@@ -155,8 +153,7 @@ h4 {
   justify-content: center;
   align-items: center;
   list-style: none;
-  gap: 45px;
-
+  gap: 25px;
 }
 
 .burger-button {
@@ -173,7 +170,6 @@ h4 {
 .nav-ul li a:hover {
   color: #072ac8;
 }
-
 
 .nav-contact-us {
   background-color: #072ac8;
@@ -274,11 +270,11 @@ h4 {
   flex-wrap: wrap;
 }
 
-.header-clients-logos-container a{
+.header-clients-logos-container a {
   filter: grayscale();
 }
 
-.header-clients-logos-container a:hover{
+.header-clients-logos-container a:hover {
   transition: all 0.2s ease;
   filter: none;
 }
@@ -429,11 +425,10 @@ h4 {
   color: #292e47;
 }
 
-
 .background-icon1 {
   background-image: url(https://res.cloudinary.com/ddcu7zhjo/image/upload/v1685188123/midterm-project/images/services-section/icons/1_r8nagd.svg);
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 35px;
   background-color: #ecf7ff;
   border-radius: 100px;
@@ -445,7 +440,7 @@ h4 {
 .background-icon2 {
   background-image: url(https://res.cloudinary.com/ddcu7zhjo/image/upload/v1685188123/midterm-project/images/services-section/icons/2_srpebi.svg);
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 40px;
   background-color: #ecf7ff;
   border-radius: 100px;
@@ -457,7 +452,7 @@ h4 {
 .background-icon3 {
   background-image: url(https://res.cloudinary.com/ddcu7zhjo/image/upload/v1685188124/midterm-project/images/services-section/icons/3_wxqjdp.svg);
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 35px;
   background-color: #ecf7ff;
   border-radius: 100px;
@@ -640,7 +635,7 @@ h4 {
   border: none;
   color: white;
   height: 65px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 
@@ -657,7 +652,7 @@ h4 {
   border: none;
   color: white;
   height: 65px;
-  transition: all .1s ease;
+  transition: all 0.1s ease;
 }
 
 .button-submit-error {
@@ -666,9 +661,8 @@ h4 {
   border: none;
   color: white;
   height: 65px;
-  transition: all .1s ease;
+  transition: all 0.1s ease;
 }
-
 
 /* --------------------------------------------------------------- */
 /* PROYECTS STYLES - POST ==========================================> */
