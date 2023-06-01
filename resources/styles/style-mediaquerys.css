@@ -243,13 +243,9 @@
     color: #072ac8;
   }
 
-
   .project-post {
     margin: 30px 30px 30px 30px;
-    
   }
-
-
 }
 
 /* --------------------------------------------------------------- */
@@ -259,9 +255,8 @@
 
   /* INDEX STYLES - HEADER =========================================> */
   .header-section-img-card2 {
-    
     left: 275px;
-}
+  }
   /* INDEX STYLES - PROJECTS =========================================> */
   .projects-section {
     padding: 100px 100px 100px 100px;
@@ -301,12 +296,14 @@
     align-items: center;
     flex-direction: column;
   }
+  .container-section-form {
+    margin: 100px 50px 100px 50px;
+  }
 }
 
 /* --------------------------------------------------------------- */
 
 @media (max-width: 576px) {
-  
   .header-section-text {
     width: 350px;
     position: relative;
@@ -364,10 +361,11 @@
   }
 
   .help-input button:hover {
-    width: 300px; 
+    width: 300px;
   }
 
   .footer-section {
     margin: 100px 50px 100px 50px;
-}
+  }
+  
 }

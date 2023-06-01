@@ -59,7 +59,7 @@ h4 {
 .container .load {
   width: 100px;
   height: 100px;
-  border: solid 5px #5546063c;
+  border: solid 5px #55460624;
   border-top: solid 5px #ffd500;
   border-radius: 50%;
   animation: loader 3s linear infinite;
@@ -260,6 +260,7 @@ h4 {
 }
 
 .header-clients-logos-container a:hover{
+  transition: all 0.2s ease;
   filter: none;
 }
 
@@ -288,12 +289,12 @@ h4 {
 }
 
 .project img {
-  width: 300px;
+  width: 360px;
   box-sizing: content-box;
 }
 
 .projects-flex-container :last-child img {
-  height: 228px;
+  height: 272px;
 }
 
 .project a {

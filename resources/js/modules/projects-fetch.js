@@ -37,7 +37,7 @@ export class ProjectsFetch {
 
   async individualDomProject() {
     try {
-      const projects = await this.getFetch();
+    const projects = await this.getFetch();
     const reverseProjects = projects.slice(1,4).reverse()
     const url = new URLSearchParams(window.location.search);
     const numProject = url.get("p");
