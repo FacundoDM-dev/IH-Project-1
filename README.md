@@ -128,9 +128,27 @@ Día 4 26/05 - Logica JS para el Loader y boton scrollUp
 
 #### Day Five
 
-Día 27/09 - Maquetado CSS y JS del botón burger para mobile.
+Día 27/05 - Maquetado CSS y JS del botón burger para mobile.
 
 ###### Viernes 27, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
+
+#### Day Six
+
+Día 5 28/05 - Lógica JS para los campos del formulario. Resultado fallido hacerlo 100% en JS, pero gracias a bendito Google y HTML algunas exigencias de validacion estan de manera nativa y con un poco de manipulcion del DOM para mostrar mensaje de alerta.
+
+###### Sábado 28, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
+
+#### Day Seven
+
+29/05 - Refactorizar JS en general a  practicas de ECMASCRIPT 6.
+
+###### Sábado 29, Enero 2023
 
 - [ ] Tarea no completada
 - [x] Tarea Completada
