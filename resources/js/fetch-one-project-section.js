@@ -6,8 +6,10 @@ const get1posts = async () => {
     const projects = await response.json();
     const reverseProjects = projects.reverse()
     let reorderProject = [reverseProjects.pop()].concat(reverseProjects)
+
     const url = new URLSearchParams(window.location.search);
     const numProject = url.get("p");
+
     const array = reorderProject[numProject];
     let post = document.querySelector(".project-post");
     
