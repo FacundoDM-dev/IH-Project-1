@@ -1,4 +1,3 @@
-
 // FETCH GET API XSCHOOL ==========================>
 
 const get3posts = async () => {
@@ -25,4 +24,7 @@ const get3posts = async () => {
     console.log(error);
   }
 };
-get3posts()
+get3posts();
+
+
+
