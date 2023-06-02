@@ -709,15 +709,15 @@ h4 {
   margin-bottom: 50px;
 }
 
-/* ABOUT US */
+/* ABOUT US STYLES - FLIP CARD ==========================================> */
 
-.cardbox-container{
+.card-box-container{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cardBox {
+.card-box {
   font-size: 20px;
   margin: 1% 0 0 1%;
   perspective: 900px;
@@ -725,19 +725,18 @@ h4 {
   width: 500px;
 }
 
-.cardBox:hover .card {
+.card-box:hover .card {
   transform: rotateY(180deg);
 }
 
 .card {
-  background:  #777c95;
   cursor: default;
   height: 300px;
   transform-style: preserve-3d;
   transition: transform 0.4s ease 0s;
   width: 100%;
-  -webkit-animation: giro 1s 1;
-  animation: giro 1s 1;
+  -webkit-animation: flip 1s 1;
+  animation: flip 1s 1;
 }
 
 .front, .back {
@@ -753,6 +752,20 @@ h4 {
   width: 100%;
 }
 
+.front{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #292e47;
+}
+
 .back {
-  transform: rotateY( 180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 30px 20px 30px;
+  transform: rotateY(180deg);
+  background-color:  #6b708d;
 }
