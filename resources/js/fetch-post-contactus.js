@@ -41,7 +41,7 @@ const showSuccess = (message) => {
   setInterval(() => {
     buttonSubmit.classList.remove("button-submit-success");
     buttonSubmit.innerText = "Submit";
-  }, 2000);
+  }, 3000);
 };
 
 const showError = (message) => {
@@ -51,7 +51,7 @@ const showError = (message) => {
   setInterval(() => {
     buttonSubmit.classList.remove("button-submit-error");
     buttonSubmit.innerText = "Submit";
-  }, 2000);
+  }, 5000);
 };
 
 fetchPost();
