@@ -132,7 +132,7 @@ h4 {
 }
 
 /* --------------------------------------------------------------- */
-/* INDEX STYLES - NAV ===========================================> */
+/* GLOBAL - NAV ===========================================> */
 
 .nav-cont {
   display: flex;
@@ -183,6 +183,7 @@ h4 {
   padding: 10px 20px;
 }
 
+/* --------------------------------------------------------------- */
 /* INDEX STYLES - HEADER =========================================> */
 
 .header-section {
@@ -511,7 +512,7 @@ h4 {
   padding-left: 40px;
 }
 
-/* INDEX STYLES - FOOTER =========================================> */
+/* GLOBAL - FOOTER =========================================> */
 
 .footer-section {
   display: flex;
@@ -608,7 +609,7 @@ h4 {
   border-color: var(--error-color);
 }
 
-/* ===============================================================> */
+/* CONTACT-US STYLES - FORM ===============================> */
 
 .container-flex-form textarea {
   padding: 10px;
@@ -665,7 +666,7 @@ h4 {
 }
 
 /* --------------------------------------------------------------- */
-/* PROYECTS STYLES - POST ==========================================> */
+/* PROYECTS STYLES - POST =======================================> */
 
 .project-post {
   margin: 100px 150px 100px 150px;
@@ -709,7 +710,8 @@ h4 {
   margin-bottom: 50px;
 }
 
-/* ABOUT US STYLES - FLIP CARD ==========================================> */
+/* --------------------------------------------------------------- */
+/* ABOUT US STYLES - FLIP CARD ==================================> */
 
 .card-box-container{
   display: flex;
@@ -768,4 +770,13 @@ h4 {
   padding: 20px 30px 20px 30px;
   transform: rotateY(180deg);
   background-color:  #6b708d;
+}
+
+.back h4{
+  font-weight: 500;
+}
+
+.back p{
+  font-weight: 200;
+  color: #ffc600;
 }
