@@ -1,5 +1,6 @@
 // FETCH POST REQUEST ======================>
 const fetchPost = () => {
+  const fullName = document.querySelector("#fullname");
   const form = document.querySelector(".container-flex-form");
   // const fullname = document.getElementById("fullname");
   // const email = document.getElementById("email");
@@ -8,46 +9,49 @@ const fetchPost = () => {
     e.preventDefault();
     try {
       const postForm = new FormData(form);
-      const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
-        method: "POST",
-        body: postForm,
-      });
-      const project = response.json();
-      console.log((project));
-      showSuccess();
-      form.reset();
-      console.log("fetch-post-request-success");
+      const response = await fetch(
+        "https://jsonplaceholder.typicode.com/posts",
+        {
+          method: "POST",
+          body: postForm,
+        }
+      );
+
+      if (fullName.value.toLowerCase() === "ironhack") {
+        showError("You cannot be Ironhack, because I am Ironhack.");
+        return;
+      } else {
+        showSuccess("Message recived");
+        form.reset();
+        // console.log("fetch-post-request-success");
+      }
     } catch {
-      console.log("fetch-post-request-failure");
+      showError("Connection problem, try again later");
+      // console.log("fetch-post-request-failure");
     }
   });
-}
-
-
+};
 
 // FUNCTIONS FOR DOM MESSAGE ======================>
 
-const showSuccess = () => {
+const showSuccess = (message) => {
   const buttonSubmit = document.querySelector(".button-submit");
   buttonSubmit.classList.toggle("button-submit-success");
-  buttonSubmit.innerText = "Message received";
+  buttonSubmit.innerText = message;
   setInterval(() => {
     buttonSubmit.classList.remove("button-submit-success");
     buttonSubmit.innerText = "Submit";
   }, 2000);
 };
 
-const showError = () => {
+const showError = (message) => {
   const buttonSubmit = document.querySelector(".button-submit");
   buttonSubmit.classList.toggle("button-submit-error");
-  buttonSubmit.innerText = "Message not received, there was an error";
+  buttonSubmit.innerText = message;
   setInterval(() => {
     buttonSubmit.classList.remove("button-submit-error");
     buttonSubmit.innerText = "Submit";
   }, 2000);
 };
-
-
-
 
 fetchPost();
