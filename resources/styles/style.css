@@ -706,12 +706,11 @@ h4 {
 .card-box-container{
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
 .card-box {
   font-size: 20px;
-  margin: 1% 0 0 1%;
   perspective: 900px;
   transition: all 0.6s ease 0s;
   width: 500px;
@@ -748,7 +747,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #292e47;
+  background-color: #272727;
 }
 
 .back {
@@ -759,7 +758,7 @@ h4 {
   gap: 10px;
   padding: 20px 30px 20px 30px;
   transform: rotateY(180deg);
-  background-color:  #6b708d;
+  background-color:  #2b2b2b;
 }
 
 .back h4{
@@ -773,6 +772,7 @@ h4 {
 
 
 .spotify{
-  margin: 50px 0px 0px 520px;
-  width: 500px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
