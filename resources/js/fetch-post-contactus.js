@@ -23,6 +23,7 @@ const fetchPost = () => {
       } else {
         showSuccess("Message recived");
         form.reset();
+
         // console.log("fetch-post-request-success");
       }
     } catch {
