@@ -336,12 +336,12 @@
   }
 
   .project img {
-    width: 300px;
+    width: 280px;
     box-sizing: content-box;
   }
 
   .projects-flex-container :last-child img {
-    height: 230px;
+    height: 220px;
   }
 
   /* INDEX STYLES - RATING =========================================> */

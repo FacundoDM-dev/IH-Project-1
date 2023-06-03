@@ -283,10 +283,11 @@ h4 {
 /* INDEX STYLES - PROJECTS =========================================> */
 
 .projects-section {
-  margin: 100px 200px 100px 200px;
+  margin: 100px 170px 100px 170px;
 }
 
 .projects-section h3 {
+ 
   padding-bottom: 60px;
   color: #292e47;
 }
