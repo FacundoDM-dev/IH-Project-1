@@ -779,9 +779,10 @@ h4 {
 .images{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 10px;
-  margin: 40px 300px 20px 300px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  
 }
 
 .images img{
