@@ -42,6 +42,8 @@ const get1posts = async () => {
     // }
     // }
 
+
+
   } catch {
     console.log(error);
   }
