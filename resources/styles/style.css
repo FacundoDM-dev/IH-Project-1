@@ -295,6 +295,7 @@ h4 {
 .projects-flex-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -303,6 +304,7 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
+  
 }
 
 .project img {
