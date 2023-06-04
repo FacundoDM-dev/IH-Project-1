@@ -252,7 +252,6 @@
 /* --------------------------------------------------------------- */
 
 @media (max-width: 766px) {
-
   /* INDEX STYLES - HEADER =========================================> */
   .header-section-img-card2 {
     left: 275px;
@@ -336,7 +335,7 @@
   } */
   .projects-section {
     margin: 70px 30px 50px 30px;
-}
+  }
   .project img {
     width: 280px;
     box-sizing: content-box;
@@ -381,11 +380,9 @@
   }
 }
 
-
 /*-------------------------------------------------------------- */
-  /* PROJECT SECTION STYLES  =========================================> */
+/* PROJECT SECTION STYLES  =========================================> */
 
 .img-container {
- 
   background-size: cover;
 }

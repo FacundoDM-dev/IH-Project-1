@@ -303,7 +303,6 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  
 }
 
 .project img {
@@ -578,10 +577,8 @@ h4 {
   outline: 1;
 }
 
-
 /* --------------------------------------------------------------- */
 /* CONTACT-US STYLES - FORM VALIDATION===========================> */
-
 
 .button-submit-success {
   background-color: #07c851;
@@ -705,10 +702,9 @@ h4 {
 /* --------------------------------------------------------------- */
 /* ABOUT US STYLES - FLIP CARD ==================================> */
 
-.card-box-container{
+.card-box-container {
   display: flex;
   justify-content: center;
-  
 }
 
 .card-box {
@@ -732,7 +728,8 @@ h4 {
   animation: flip 1s 1;
 }
 
-.front, .back {
+.front,
+.back {
   backface-visibility: hidden;
   box-sizing: border-box;
   color: white;
@@ -745,7 +742,7 @@ h4 {
   width: 100%;
 }
 
-.front{
+.front {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -760,34 +757,33 @@ h4 {
   gap: 10px;
   padding: 30px 30px 0px 30px;
   transform: rotateY(180deg);
-  background-color:  #2b2b2b;
+  background-color: #2b2b2b;
 }
 
-.back h4{
+.back h4 {
   font-weight: 500;
 }
 
-.back p{
+.back p {
   font-weight: 200;
   color: #ffc600;
 }
 
-.spotify{
+.spotify {
   display: flex;
   justify-content: center;
   padding-top: 30px;
 }
 
-.images{
+.images {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 40px;
-  
 }
 
-.images img{
+.images img {
   width: 245px;
   border-radius: 10px;
-  }
+}
