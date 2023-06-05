@@ -86,7 +86,7 @@ https://ih-project-1-git-main-facundodm-dev.vercel.app/index.html
 
 ## Precentacion en Canva
 
-https://www.canva.com/design/DAFk80JN8aQ/cwfaKV3MwDrK-7snbLEVRQ/edit?utm_content=DAFk80JN8aQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.canva.com/design/DAFk80JN8aQ/EKTzlqIpswNBmLDuiMVvwA/view?utm_content=DAFk80JN8aQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ## Roadmap trello
 
