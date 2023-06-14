@@ -386,3 +386,11 @@
 .img-container {
   background-size: cover;
 }
+
+
+.card-box {
+  font-size: 20px;
+  perspective: 900px;
+  transition: all 0.6s ease 0s;
+  width: 500px;
+}

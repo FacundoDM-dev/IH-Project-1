@@ -13,9 +13,13 @@ const fetchPost = () => {
         "https://jsonplaceholder.typicode.com/posts",
         {
           method: "POST",
-          body: postForm,
+          body: JSON.stringify(postForm
+            ),
+          headers: {"Content-type": "application/json; charset=UTF-8"}
         }
       );
+      console.log(response);
+
 
       if (fullName.value.toLowerCase() === "ironhack") {
         showError("You cannot be Ironhack, because I am Ironhack.");
@@ -32,6 +36,7 @@ const fetchPost = () => {
     }
   });
 };
+
 
 // FUNCTIONS FOR DOM MESSAGE ======================>
 
